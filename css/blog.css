@@ -1,0 +1,37 @@
+#blog a{
+	text-align: center;
+	color: #000000;
+}
+#blog h2{
+	text-align: center;
+	color: #000000;
+	font-size: 40px;
+
+}
+#blog h4{
+	text-align: center;
+	color: #000000;
+	font-size: 25px;
+	
+
+}
+#blog .general{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#blog article{
+	margin: 5px;
+}
+#blog img{
+	width: 100%;
+	max-width: 280px;
+
+}
+.zoom{
+	transition: transform .5s;
+	
+}
+.zoom:hover{
+	transform: scale(1.3);
+}
